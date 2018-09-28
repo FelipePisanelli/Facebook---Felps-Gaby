@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fakebook – entre ou cadastre-se</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body style= "background-image: linear-gradient(#ffffff, #b3c9db);">
+
+    <header>
+      <nav style="background: #3B5998">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <br>
+              <a href="fakebook-entre-cadastre.html" class="navbar-brand text-white"><h1><b>fakebook</b></h1></a>
+            </div>
+            <div class="col-6">
+              <div class="col-md-12 order-md-1">
+                <form class="needs-validation" novalidate>
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <br>
+                      <label for="email" class="text-white small" title="Insira seu e-mail">E-mail ou telefone:</label>
+                      <input class="small" type="text" id="email" value="" required>
+                      <div class="invalid-feedback">
+                        Insira seu e-mail!
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                      <br>
+                      <label for="senha" class="text-white small">Senha:</label>
+                      <input class="small" type="password" id="senha" value="" required>
+                      <div class="invalid-feedback" id="senha">
+                        Senha Incorreta
+                      </div>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                      <br><br>
+                      <a href="index.html"><button type="button" class="btn btn-sm btn-outline-light"><b>Entre</b></button></a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <h5 style="color: #223760;"><b>O Fakebook não é plágio, nós copiamos mas não fizemos igual. Qualquer semelhança é mera coincidência.</b></h5>
+      <div class="col-12">
+        <br>
+        <img src="img/plagio.jpg" style="height: 200px; width: 300px">
+      </div>
+    </div>
+    <div class="col-2">
+    </div>
+    <div class="col-6">
+      <h1><b>Abra uma conta</b></h1>
+      
+      <h5>É gratuito e sempre será (porém depende do governo).</h5>
+
+      <div class="row">
+        <div class="col-6">
+          <input class="form-control" type="text" name="nome" placeholder="Nome" required="">
+          <div class="invalid-feedback">
+            Este campo é obrigatório.
+          </div>
+        </div>
+        <div class="col-6">
+          <input class="form-control" type="text" name="sobrenome" placeholder="Sobrenome" required="">
+          <div class="invalid-feedback">
+            Este campo é obrigatório.
+          </div>
+        </div>
+      </div>
+<br>
+
+      <div>
+        <input class="form-control" type="text" name="email" placeholder="E-mail ou celular" required="">
+          <div class="invalid-feedback">
+            Este campo é obrigatório.
+          </div>
+      </div>
+
+<br>
+      <div>
+        <input class="form-control" type="password" name="senha" placeholder="Nova senha" required="">
+          <div class="invalid-feedback">
+            Este campo é obrigatório.
+          </div>
+      </div>
+
+<br>
+
+
+<h5>Data de nascimento</h5>
+
+<select aria-label="Dia" name="nascimento" id="day" title="Dia de seu nascimento">
+<option value="0">Dia</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option> 
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10" selected="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<div class="invalid-feedback">
+            Este campo é obrigatório.
+          </div>
+
+<select aria-label="Mês" name="mes" id="month" title="Mês de seu nascimento">
+<option value="0">Mês</option>
+<option value="1">Janeiro</option>
+<option value="2">Fevereiro</option>
+<option value="3">Março</option>
+<option value="4">Abril</option>
+<option value="5">Maio</option>
+<option value="6">Junho</option>
+<option value="7">Julho</option>
+<option value="8">Agosto</option>
+<option value="9">Setembro</option>
+<option value="10" selected="10">Outubro</option>
+<option value="11">Novembro</option>
+<option value="12">Dezembro</option>
+</select>
+
+<select aria-label="Ano" name="ano" title="Ano de seu nascimento">
+<option value="0">Ano</option>
+<option value="1">2000</option>
+<option value="2">2001</option>
+<option value="3" selected="3">2002</option>
+<option value="4">2003</option>
+<option value="5">2004</option>
+<option value="6">2005</option>
+<option value="7">2006</option>
+<option value="8">2007</option>
+<option value="9">2008</option>
+<option value="10">2009</option>
+<option value="11">2010</option>
+<option value="12">2011</option>
+<option value="13">2012</option>
+<option value="14">2013</option>
+<option value="15">2014</option>
+<option value="16">2015</option>
+<option value="17">2016</option>
+<option value="18">2017</option>
+<option value="19">2018</option>
+</select>
+
+
+<a class="small" id="birthday-help" href="https://pt-br.facebook.com/privacy/explanation/" title="Clique para obter mais informações" role="button">Por que preciso informar minha data de nascimento?</a>
+
+
+<br>
+<br>
+
+
+<div class="row">
+  <div class="col-4">
+    <div class="control radio">
+      <input id="fem" name="sexo" type="radio" class="control-input">
+      <label class="control-label" for="fem"><h5>Feminino</h5></label>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="control radio">
+      <input id="mas" name="sexo" type="radio" class="control-input">
+      <label class="control-label" for="mas"><h5>Masculino</h5></label>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-8">
+    <div class="small">
+      <p>Ao clicar em Inscreva-se, você concorda com nossos termos e está ciente que qualquer um vai poder stalkear sua vida <a href="https://pt-br.facebook.com/legal/terms/update">Termos</a>, <a href="https://pt-br.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://pt-br.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber as notificações e entrar e fazer 5 minutos virarem 1 hora e não fazer nada da vida</p>
+    </div>
+  </div>
+</div>
+
+<a href="https://m.facebook.com/reg/?locale2=pt_BR"><button type="button" class="btn btn-success">Inscreva-se</button></a>
+<br><br>
+<p class="small" style="color: grey;"><b><a href="">Criar uma Página</a> Para uma celebridade, banda ou empresa, ou para você que acha que é famoso e têm gente interessada na sua vida.</b></p>
+<br>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="" data-referrer="page_footer" style="background: #ffffff; height: 200px; text-align: center;">
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <p class="small" style="color: grey;">Português</p>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">English</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">Español</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">Français</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">Italiano</a>
+      </div>
+        <div class="col-1">
+        <a class="small" href="">Deutsch</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">لعربية</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">हन्दी</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">中(简体)</a>
+      </div>
+      <div class="col-1">
+        <a class="small" href="">日本</a>
+      </div>
+       <div class="col-1">
+        <a class="small" href="">Élfico</a>
+      </div>
+       <div class="col-1">
+        <a class="small" href="">Kiswahili</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row small" style="text-align: center">
+      <div class="col-3">
+        <a href="https://pt-br.facebook.com/r.php">Inscreva-se</a>
+      </div>
+      <div class="col-3">
+        <a href="https://www.messenger.com/">Messenger</a>
+      </div>
+      <div class="col-3">
+        <a href="https://pt-br.facebook.com/lite/">Facebook lite</a>
+      </div>
+      <div class="col-3">
+        <a href="https://pt-br.facebook.com/mobile/?ref=pf">Celular</a>
+      </div>
+    </div>
+<br><br>
+
+  <div class="row small">
+    <div class="col-3" style="color: grey; text-align: left; font-size: 10px">
+      Facebook © 2018
+    </div>
+  </div>
+<br>
+</div>
+</div>
